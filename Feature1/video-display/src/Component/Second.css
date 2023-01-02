@@ -1,0 +1,14 @@
+.float-container{
+    margin-top: 6em;
+}
+.float-right{
+    width: 50%;
+    float: right;
+    padding: 5px;
+}
+
+.float-left{
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
