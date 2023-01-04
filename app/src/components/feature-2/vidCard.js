@@ -1,14 +1,16 @@
 import Card from 'react-bootstrap/Card';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import vid from '../../assets/Pine.mp4'
 
 function vidCard(){
     return (
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+        <Card style={{ width: '18rem', padding: '2em', margin:'4em', marginTop:'2%', marginBottom:'0'}}>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            {/* <Card.Title>Card Title</Card.Title> */}
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              <video controls width='100%' poster=''>
+                <source src={vid} type="video/mp4"/>
+              </video>
             </Card.Text>
           </Card.Body>
         </Card>
