@@ -1,10 +1,12 @@
 import './App.css';
-import Video from './components/feature-2/video';
+import Videos from './components/feature-2/vidsDisplay';
+
 function App() {
 
   return (
     <div className="App">
-      <Video></Video>
+      <Videos></Videos>
+
     </div>
   );
 }
