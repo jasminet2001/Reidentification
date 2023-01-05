@@ -1,3 +1,7 @@
 .bg{
     background-image: url('../../assets/wave\ \(1\).svg');
+    transition: transform .2s;
+}
+.bg:hover {
+    transform: scale(1.2);
 }

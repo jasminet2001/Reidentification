@@ -3,6 +3,7 @@ import 'swiper/css';
 // import VidCard from './vidCard';
 import Card from './vidCard';
 // SwiperCore.use([Keyboard, Mousewheel]);
+// import SwiperStyle from './vidsDisplay.css'
 
 function vidsDisplay(){
   return (    
@@ -11,14 +12,13 @@ function vidsDisplay(){
       slidesPerView={3}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-    >
-      <SwiperSlide><Card></Card></SwiperSlide>
-      <SwiperSlide><Card></Card></SwiperSlide>
-      <SwiperSlide><Card></Card></SwiperSlide>
-      <SwiperSlide><Card></Card></SwiperSlide>
-      <SwiperSlide><Card></Card></SwiperSlide>
+      >
+        <SwiperSlide><Card></Card></SwiperSlide>
+        <SwiperSlide><Card></Card></SwiperSlide>
+        <SwiperSlide><Card></Card></SwiperSlide>
+        <SwiperSlide><Card></Card></SwiperSlide>
+        <SwiperSlide><Card></Card></SwiperSlide>
     </Swiper>
-
   );
 
 };
