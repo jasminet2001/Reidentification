@@ -1,10 +1,11 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 // import VidCard from './vidCard';
 import Card from './vidCard';
+// SwiperCore.use([Keyboard, Mousewheel]);
 
 function vidsDisplay(){
-    return (
+  return (    
     <Swiper
       spaceBetween={0}
       slidesPerView={3}
@@ -18,7 +19,7 @@ function vidsDisplay(){
       <SwiperSlide><Card></Card></SwiperSlide>
     </Swiper>
 
-    );
+  );
 
 };
 export default vidsDisplay;

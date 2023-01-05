@@ -1,13 +1,11 @@
 import './App.css';
-import Videos from './components/feature-2/vidsDisplay';
-import MainVid from './components/feature-2/video';
+import VideoComponent from './components/feature-2/VideoComponent';
 
 function App() {
 
   return (
     <div className="App">
-      <MainVid></MainVid>
-      <Videos></Videos>
+      <VideoComponent></VideoComponent>
     </div>
   );
 }
