@@ -1,6 +1,20 @@
 .bg{
     background-image: url('../../assets/wave\ \(1\).svg');
+    background-color: rgba(254,253,112,1);
     transition: transform .2s;
+    margin: auto;
+    margin-top: 0%;
+    margin-bottom: 6%;
+    width: 60%;
+}
+.bgOnClick{
+    background-image: url('../../assets/wave3.svg');
+    background-color: rgb(112, 254, 164);
+    transition: transform .2s;
+    margin: auto;
+    margin-top: 0%;
+    margin-bottom: 6%;
+    width: 60%;
 }
 .bg:hover {
     transform: scale(1.2);
