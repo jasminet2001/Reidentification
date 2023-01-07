@@ -1,0 +1,19 @@
+.flexContainer{
+    display: flex;
+    direction: row;
+}
+.form{
+    flex: 50%;
+    align-self: center;
+    margin: 4em;
+    margin-top: 10%;
+}
+.img{
+    flex: 50%;
+    align-self: center;
+    margin: 2em;
+}
+.pic{
+    margin-top: 10%;
+    width: 80%;
+}
