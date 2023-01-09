@@ -15,6 +15,9 @@ function App() {
           <Route path="/upload-file">
             <UploadComponent></UploadComponent>
           </Route>
+          <Route path="/video">
+
+          </Route>
         </Switch>
       </div>
     </Router>
