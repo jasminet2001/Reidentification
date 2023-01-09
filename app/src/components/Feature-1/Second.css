@@ -4,20 +4,26 @@ body{
     background-attachment: fixed; 
 }
 .container{
-    margin-bottom: 5%;
+
 }
 .floatContainer{
-    margin-top: 6em;
+    margin-top: 4em;
     margin-bottom: 5%;
+    padding: .5em;
 }
-.float-right{
-    width: 50%;
-    float: right;
-    padding: 10px;
+.floatRight{
+    width: 5%;
+    padding: .5em;
 }
 
-.float-left{
-    width: 50%;
-    float: left;
-    padding: 10px;
+.floatLeft{
+    width: 5%;
+    padding: .5em;
+}
+
+.Title{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    margin: 1em;
 }

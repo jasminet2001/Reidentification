@@ -1,21 +1,29 @@
 import styles from './Second.css';
 import vid from '../../assets/Pine.mp4';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 function Second(){
     return(
-        <div className={styles.container}>
-            <h1 className="Title">Second Page</h1>
-            <div className={styles.floatContainer}>
-                <div className="float-right">
-                    <video className="vid" controls width="50%" poster=''>
+        <Container className={styles.container}>
+            <Row>
+                <h1 className="Title">Second Page</h1>
+            </Row>
+            
+            <Row className="floatContainer">
+                <Col className="floatRight">
+                    <video className="vid" controls width="100%" poster=''>
                         <source src={vid} type="video/mp4"/>
                     </video>
-                </div>
-                <div className="float-left">
-                    <video className="vid" controls width="50%" poster=''>
+                </Col>
+
+                <Col className="floatLeft">
+                    <video className="vid" controls width="100%" poster=''>
                         <source src={vid} type="video/mp4"/>
                     </video>
-                </div>
-            </div>
-        </div>) ;
+                </Col>
+            </Row>
+        </Container>) ;
 };
 export default Second;
