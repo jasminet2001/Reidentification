@@ -1,17 +1,17 @@
-import './Second.css';
+import styles from './Second.css';
 import vid from '../../assets/Pine.mp4';
 function Second(){
     return(
-        <div className="container">
+        <div className={styles.container}>
             <h1 className="Title">Second Page</h1>
-            <div className="float-container">
+            <div className={styles.floatContainer}>
                 <div className="float-right">
-                    <video className="vid" controls width="200" poster=''>
+                    <video className="vid" controls width="50%" poster=''>
                         <source src={vid} type="video/mp4"/>
                     </video>
                 </div>
-                <div className="float-right">
-                    <video className="vid" controls width="200" poster=''>
+                <div className="float-left">
+                    <video className="vid" controls width="50%" poster=''>
                         <source src={vid} type="video/mp4"/>
                     </video>
                 </div>
