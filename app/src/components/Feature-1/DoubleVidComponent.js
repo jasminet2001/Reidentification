@@ -15,7 +15,6 @@ function DoubleVidComponent() {
     <div>
       {isShownFirst && <First/>}
       {isShown && <Second/>}
-      {/* <button type="button" class="btn btn-primary btn-lg" onClick={handleClick}>Click</button> */}
         <div className={styles.btnContainer}>
             <Button variant="outline-warning" onClick={handleClick} className={styles.btn}>Click</Button>
         </div>
