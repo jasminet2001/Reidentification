@@ -1,13 +1,14 @@
-import React,{Component} from 'react';
 import './First.css';
-import ReactPlayer from 'react-player'
+import vid from '../../assets/Pine.mp4';
 
-export class First extends Component{
-    render()
-    {
-        return(
+function First(){
+    return(
         <div className="block">
             <h1 className="Title">First Page</h1>
-            <ReactPlayer className="video" url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
+            <video className="video" controls width='100%' poster=''>
+                <source src={vid} type="video/mp4"/>
+            </video>
         </div>) ;
-    }
+};
+export default First;
+
